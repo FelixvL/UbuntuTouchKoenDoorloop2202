@@ -1,0 +1,15 @@
+{
+    "name": "trainingmetkoen.felix",
+    "description": "trainingmetkoen",
+    "architecture": "@CLICK_ARCH@",
+    "title": "mijntrainingmetkoen",
+    "hooks": {
+        "trainingmetkoen": {
+            "apparmor": "trainingmetkoen.apparmor",
+            "desktop":  "trainingmetkoen.desktop"
+        }
+    },
+    "version": "1.0.0",
+    "maintainer": "felix <digitaleservice@gmail.com>",
+    "framework" : "@CLICK_FRAMEWORK@"
+}
